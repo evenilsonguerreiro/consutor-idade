@@ -1,0 +1,39 @@
+.resultado{
+    text-align: center;
+    margin-top: 10px;
+}
+header{
+    background-color:blueviolet;
+}
+h1{
+    text-align: center;   
+}
+h2, h3{
+    color: purple;
+}
+img{
+  width: 200px; 
+  height: 200px; 
+  border-radius: 50%;
+}
+#res{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: blueviolet;
+    color: white;
+    padding: 8px;
+}
+#foto{
+    margin-bottom: 10px;
+}
+
+
+@media (max-width:767px){
+    .container{
+        max-width: 100%;
+    }
+    #res{
+        font-size: 12px;
+    }
+}
