@@ -6,22 +6,23 @@
     <title>Consutor de idade</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
     <header class="p-3 text-white">
         <div class="container">
-            <h1>VERIFICADOR DE IDADE</h1>
+            <h1> <i class="bi bi-google-play"></i> VERIFICADOR DE IDADE</h1>
         </div>
     </header>
     <main class="">
         <div class="container">
             <form class=" p-5">
-                <h2 class="">Preencha corretamente os campos abaixo</h2>
+                <h2 class="">Preencha corretamente os campos abaixo </h2>
                 <p>
                     Essa ferramenta de ajudarar a saber sua idade exata , tambêm te mostrarar uma imagem correspondente a genero e aproximadamente a <b>idade</b> do usuario.
                     esperamos que essa ferramenta de tecnologia possa de ajudar.
                 </p>
-                <label class="form-label" for="">Ano de nascimento</label>
+                <label class="form-label" for=""> <i class="bi bi-arrow-down-right-circle-fill"> </i> Ano de nascimento</label>
                 <input class="form-control" type="number" name="txtano" id="txtano" placeholder="digite seu ano de nascimento">
                 <br>
                 <h3>Sexo</h3>
@@ -31,14 +32,16 @@
                 <label for="">Feminino</label>
                 <input class="form-radios" type="radio" name="radsex" id="fem">
                 <br>
-                <input class="btn btn-primary mt-3" type="button" onclick="verificar()" value="Enviar">
+                <input class="btn btn-primary mt-3" type="button" onclick="verificar()" value="Enviar" >
+                
                 <br>
                <div class="resultado">
                 <div class="" id="res">
                    
+                    
                 </div>
                 <div class="" id="fotos">
-                    <img id="image" src="" alt="">
+                    <img id="image"  src="" alt="">
                 </div>
                </div>
             </form>
