@@ -8,9 +8,7 @@ header{
     top: 0;
     left: 0;
 }
-h1{
-      
-}
+
 h2, h3{
     color: purple;
     font-size: 35px;
@@ -26,6 +24,7 @@ img{
   width: 200px; 
   height: 200px; 
   border-radius: 50%;
+  object-fit: cover;
 }
 #res{
     font-size: 16px;
@@ -56,6 +55,11 @@ img{
     p{
         font-size: 16px;
     }
+    .btn {
+        width: 100%;
+    }
    
     
 }
+
+
